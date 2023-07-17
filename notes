@@ -1,0 +1,20 @@
+Libraries:
+- Lucide (icons) : npm install lucide-react
+- Reading time: npm install reading-time
+- Luxon (date & time): yarn add @types/luxon (sometimes you have to install types seperately for typescript)
+- Container queries : npm install @tailwindcss/container-queries
+- DirectusSDK : yarn add @directus/sdk
+
+i18:
+- yarn add @formatjs/intl-localematcher
+- yarn add negotiator
+- yarn add @types/negotiator
+
+
+
+Noted: 
+pics dim: (2000 x 1380) -- Image Dimensions are off.
+
+
+ SEO:
+ - Canonical means most representive page on your site
