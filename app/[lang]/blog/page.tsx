@@ -33,6 +33,7 @@ export default async function page ({
           "category.translations.*"
         ],
       }) ;
+      
 
     if(locale ==="en"){
         return posts.data;

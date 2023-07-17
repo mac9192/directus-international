@@ -66,13 +66,13 @@ export default function RootLayout({
   return (
     <html lang={lang}>
 
-<Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-89T2KQ9Q7E"></Script>
+<Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-D8XQ7H1THR"></Script>
 <Script id="google-analytics">
   {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-89T2KQ9Q7E');`}
+  gtag('config', 'G-D8XQ7H1THR');`}
 </Script>
     
       <body className={inter.className}>

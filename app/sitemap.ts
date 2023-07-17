@@ -3,6 +3,9 @@ import directus from "../lib/directus"
  
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
+
+  
+
   const baseURL = process.env.NEXT_PUBLIC_SITE_URL as string
 
   // Get Posts
@@ -45,6 +48,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ],
   }) ;
 
+  const categoriesTranslations = await directus.items("category_translations").readByQuery({
+    fields: [
+        "slug",
+        "date_updated",
+        "title",
+    ],
+  }) ;
+
+  console.log(categoriesTranslations)
+
   const categoryLinks = categories?.data?.map((category:any) => {
     return[
         {
@@ -60,11 +73,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
              url: `${baseURL}/${category.slug}`,
              lastModified: new Date() 
         },
-       
+   
     ]
-  
+   
        
-})
+})   
 
 
   const dynamicLinks = postLinks?.concat(categoryLinks ?? []).flat() ?? [];
