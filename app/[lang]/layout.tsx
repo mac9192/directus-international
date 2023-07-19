@@ -14,46 +14,48 @@ const inter = Inter({ subsets: ['latin'] })
   description: "A minimal and lovely travel blog which shares experiences from USA"
 }*/
 
-export const generateMetadata = async ({params:{lang}}: {params: {lang:string}}) => {
-
-  //Get Dictionary based on lang
-  const dictionary = await getDictionary(lang)
+export const generateMetadata = async ({
+  params: { lang },
+}: {
+  params: { lang: string };
+}) => {
+  // Get the Dicitionary based on Lang
+  const dicitionary = await getDictionary(lang);
 
   return {
     title: {
       template: "%s | " + siteConfig.siteName,
       default: siteConfig.siteName,
     },
-    description: dictionary.footer.description,
+    description: dicitionary.footer.description,
     openGraph: {
       title: siteConfig.siteName,
-      description: dictionary.footer.description,
-      url:`${process.env.NEXT_PUBLIC_SITE_URL}/${lang}`,
+      description: dicitionary.footer.description,
+      url: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}`,
       siteName: siteConfig.siteName,
-     images: [
+      images: [
         {
           url: "https://localhost:3000/opengraph-image.png",
           width: 1200,
           height: 628,
         },
-  
       ],
       locale: lang,
-      type: 'website',
+      type: "website",
     },
     alternates: {
-      canonical: `https://directus-international-wxyz.vercel.app`,
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
       languages: {
-         'en-US': `${process.env.NEXT_PUBLIC_SITE_URL}/en`,
-        'es-ES': `${process.env.NEXT_PUBLIC_SITE_URL}/es`,
-      }
+        "en-US": `${process.env.NEXT_PUBLIC_SITE_URL}/en`,
+        "es-ES": `${process.env.NEXT_PUBLIC_SITE_URL}/es`,
+      },
     },
+    /* Verification for Google Search Console */
     verification: {
       google:"xFa5TJNZlg-4hykrxBaFnWMCWtOgsLM2CAEFn71GZ-s" 
     }
-  }
-
-}
+  };
+};
 
 
 
