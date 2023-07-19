@@ -6,6 +6,7 @@ import { Metadata } from "next"
 import { getDictionary } from '../../lib/getDictionary'
 import siteConfig from '../../constants/site'
 import Script from 'next/script'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -70,8 +71,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang={lang}>
-
-
+<Head>
+<meta name="google-site-verification" content="xFa5TJNZlg-4hykrxBaFnWMCWtOgsLM2CAEFn71GZ-s" />
 <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-LSTFH7X86V"></Script>
 <Script id="google-analytics">
   {`window.dataLayer = window.dataLayer || [];
@@ -80,7 +81,7 @@ export default function RootLayout({
 
   gtag('config', 'G-LSTFH7X86V');`}
 </Script>
-    
+</Head>
       <body className={inter.className}>
  
         <Navigation locale={lang} />
