@@ -42,7 +42,7 @@ export const generateMetadata = async ({params:{lang}}: {params: {lang:string}})
       type: 'website',
     },
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+      canonical: `https://directus-international-wxyz.vercel.app`,
       languages: {
          'en-US': `${process.env.NEXT_PUBLIC_SITE_URL}/en`,
         'es-ES': `${process.env.NEXT_PUBLIC_SITE_URL}/es`,
