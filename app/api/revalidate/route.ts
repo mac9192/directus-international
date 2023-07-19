@@ -5,7 +5,7 @@ export async function GET(request: NextRequest) {
   const token = request.nextUrl.searchParams.get("token");
   // If there is no token, return a 401
   if (!token || token !== process.env.ADMIN_TOKEN)
-    return NextResponse.json({ error: "Not authorised" }, { status: 401 });
+     return NextResponse.json({ error: "Not authorised" }, { status: 401 });
   // Revalidate All Posts
   revalidatePath(`/[lang]/post/[slug]`);
   // Revalidate All Categories
@@ -14,5 +14,5 @@ export async function GET(request: NextRequest) {
   revalidatePath(`/[lang]/blog`);
   revalidatePath(`/[lang]`);
 
-  return NextResponse.json({ revalidated: true, now: Date.now() });
+  return NextResponse.json({  revalidated: true, now: Date.now() }) ;
 }
