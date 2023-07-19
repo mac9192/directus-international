@@ -14,7 +14,7 @@ const postHero = ({post,locale}: PostHeroProps) => {
     <div>
  
      <PostContent locale={locale} isPostPage={true} post={post} /> {/* isPostPage then it will have Big H1 Title, etc. */}
-      <Image priority className="rounded-md w-full object-cover object-center h-[300px] md:h-[500px] mt-6"  src={`${process.env.NEXT_PUBLIC_ASSETS_URL}${post.image}?key=optimized`} alt={post.title} width={1280} height={500} />
+     <Image priority className="rounded-md w-full object-cover object-center h-[300px] md:h-[500px] mt-6"  src={`${process.env.NEXT_PUBLIC_ASSETS_URL}${post.image}?key=optimized`} alt={post.title} width={1280} height={500} />
     </div>
   )
 }

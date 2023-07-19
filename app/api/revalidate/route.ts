@@ -12,6 +12,7 @@ export async function GET(request: NextRequest) {
   revalidatePath(`/[lang]/[category]`);
   // Revalidate All Languages
   revalidatePath(`/[lang]/blog`);
+  
   revalidatePath(`/[lang]`);
 
   return NextResponse.json({  revalidated: true, now: Date.now() }) ;
