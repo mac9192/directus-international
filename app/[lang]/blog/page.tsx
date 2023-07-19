@@ -73,7 +73,7 @@ const dictionary = await getDictionary(locale)
 
   return (
 
-    <div className="bg-slate-700 ">
+    <div className="bg-slate-500 ">
 
       <div className="container mx-auto space-y-10 py-8 ">
         <PostCard locale={locale} post={ posts[0]} />
