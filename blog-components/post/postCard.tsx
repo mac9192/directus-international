@@ -25,8 +25,8 @@ const postCard = ({post, layout = "vertical", reverse = false, locale }:PostProp
       : "space-y-10 "} `}
     href={`/${locale}/post/${post.slug}`}
     >
-     <Image 
-        className={` rounded-md w-full object-cover object-center lg:max-h-[330px] sm:max-h-[230px] ${
+     <Image //FIX MD BREAKPOINT
+        className={` rounded-md w-full object-cover object-center lg:max-h-[300px] sm:max-h-[230px] ${
             reverse ? "md:order-last":""
         }`} 
         alt={post.title} 

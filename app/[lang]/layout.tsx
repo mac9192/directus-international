@@ -47,6 +47,9 @@ export const generateMetadata = async ({params:{lang}}: {params: {lang:string}})
          'en-US': `${process.env.NEXT_PUBLIC_SITE_URL}/en`,
         'es-ES': `${process.env.NEXT_PUBLIC_SITE_URL}/es`,
       }
+    },
+    verification: {
+      google:"xFa5TJNZlg-4hykrxBaFnWMCWtOgsLM2CAEFn71GZ-s" 
     }
   }
 
