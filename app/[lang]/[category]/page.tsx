@@ -6,6 +6,7 @@ import directus from '../../../lib/directus'
 import { getDictionary } from '../../../lib/getDictionary'
 import {Post} from '../../../types/collections'
 import { cache } from 'react'
+import { revalidatePath } from 'next/cache'
 
 
 //Takes in "categories" params from Dummy Data as a slug --
@@ -34,8 +35,8 @@ export const getCategoryData = cache(
           "posts.category.id",
           "posts.category.title",
           "posts.translations.*",
-        ],
-      });
+        ], 
+      }, );
 
       if (locale === "en") {
         return category?.data?.[0];
