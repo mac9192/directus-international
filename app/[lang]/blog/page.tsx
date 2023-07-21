@@ -82,7 +82,7 @@ const dictionary = await getDictionary(locale)
       
         <CTACard  dictionary={dictionary} />
         <PostCard  locale={locale} reverse post={ posts[3]} />
-        <PostList  locale={locale}posts={ posts.filter((_post:any,index:any) => index > 3 && index < 1000)} />
+        <PostList  locale={locale}posts={ posts.filter((_post:any,index:any) => index > 3 && index < 999)} />
       </div>
     </div>
  
