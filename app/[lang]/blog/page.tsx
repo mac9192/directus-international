@@ -77,12 +77,12 @@ const dictionary = await getDictionary(locale)
 
       <div className="container mx-auto space-y-10 py-8 ">
         <PostCard locale={locale} post={ posts[0]} />
-        <PostList locale={locale} posts={ posts} />
+        <PostList locale={locale} posts={ posts.filter((_post:any,index:any) => index > 0 && index < 3)} />
         {/*Reverse direction of cards */}
       
         <CTACard  dictionary={dictionary} />
         <PostCard  locale={locale} reverse post={ posts[3]} />
-        <PostList  locale={locale}posts={ posts} />
+        <PostList  locale={locale}posts={ posts.filter((_post:any,index:any) => index > 3 && index < 1000)} />
       </div>
     </div>
  
