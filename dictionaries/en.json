@@ -1,25 +1,88 @@
 {
-    "navigation": {
-      "links": {
-        "cities": "Cities",
-        "experience": "Experiences"
-      }
-    },
-    "buttons": {
-      "readMore": "Read More"
-    },
-    "ctaCard": {
-      "title": "Explore the world with me!",
-      "description": "Explore the world with me! I'm travelling around the 🌍. I've visited most of the great cities of 🇺🇸 and currently I'm travelling in 🇪🇺 Join me!",
-      "button": "Sign Up",
-      "placeholder": "Write your email.",
-      "subscriberText1": "Join our",
-      "subscriberText2": "subscribers now!"
-    },
-    "footer": {
-      "description": "A minimal and lovely travel blog which shares experiences and citiest around the world!",
-      "rightsText": "All rights are reserved | Copyright",
-      "creatorText": "Created with ❤️ by",
-      "currentlyAtText": "Currently at"
+  "navigation": {
+    "links": {
+      "cities": "Cities",
+      "experience": "Experiences"
     }
+  },
+  "buttons": {
+    "readMore": "Read More"
+  },
+
+  "frontHeader":{
+    "topLine":"Real Experts, Real Results",
+    
+    "description": "We are a dedicated law firm in Atlanta providing our clients with compassionate, yet aggressive representation in immigration and injury law matter.",
+    "button1":"Schedule Consultation",
+    "button2":"Play Video"
+  },
+  "contactTop2":{
+    "headercontactLeft":"Contact",
+    "headerusTodayLeft":"Us Today",
+    "descriptionLeft":"If you are facing immigration challenges or grappling with the aftermath of a personal injury?",
+    "ctaLeft":"Call us today.",
+    "immigration":"IMMIGRATION",
+    "personalInjury":"PERSONAL INJURY",
+    "submitBtn":"Send Form"
+  },
+  "badges":{
+    "header":"LEADING LAW FIRM IN ATLANTA PROVIDING ATLANTA PERSONAL INJURY & ATLANTA IMMIGRATION LAW SERVICES",
+    "subHeader":"SERVING GEORGIA, FLORIDA, ALABAMA, AND WASHINGTON STATE",
+    "top40":"Membership into The National Trial Lawyers Top 40 under 40 is by invitation only and is extended exclusively to those trial lawyers practicing civil plaintiff and/or criminal defense law.",
+    "avvo":"This highly coveted honor is bestowed upon attorneys who have received 4-star reviews or higher from at least 5 past clients throughout the year.",
+    "super":"Super Lawyers selects attorneys using a patented multiphase selection process. Peer nominations and evaluations are combined with independent research."
+  },
+  "header2":{
+    "header":"WHAT OUR CLIENTS SAY",
+    "testimonials":"“Strong work ethic, very helpful and respectful. They helped us with an accident case. They always answered any question we had. I loved that they spoke Spanish so my mother would understand the process from beginning to end.”",
+    "btn":"Schedule Consultation"
+  },
+  "services":{
+    "header":"OUR PRACTICE AREAS",
+    "personalInjury":"Personal Injury",
+    "immigration":"Immigration",
+    "personalInjurydesc":"At the personal injury firm of Cheves Briceno, we provide aggressive legal advocacy for people in Georgia, Alabama, Florida, and Washington state who have suffered injuries due to someone else’s negligence. We will not hesitate to take on powerful insurance companies and other corporate interests if it means helping you recoup compensation for your damages.",
+    "immigrationdesc":"Our attorneys have handled the most complex cases. Specifically, family-based immigration is where we have the most experience. We can help you through all stages of the process. From getting your green card to establishing residency, we are here to answer all of your questions. We also help those who are facing deportation. Our firm understands the importance of being with family."
+  },
+
+  "cta":{
+    "header":"Empowering Your Legal Journey: Meet Our Expert Legal Team"
+  },
+  "faq":{
+    "header":"Cheves Briceno is not a typical law firm. We break out of the conventional mold by providing service that is aggressive in the courtroom but compassionate with our clients.",
+    "firm":"Our Firm",
+    "firmDesc":"After serving in roles with Immigration and Customs Enforcement’s Office of Chief Counsel in Miami and spending 7 years in private practice, managing partner Gerardo Briceno started his own Atlanta personal injury and immigration law firm. Since its founding, Cheves Briceno has grown through the addition of fellow attorneys Eduardo Galvao, Jennifer Bechtold and a dedicated team of crucial administrative and paralegal staff. Briceno attorneys have been widely recognized and awarded in the legal profession. Notable achievements include the coveted SuperLawyers recognition, National Trial Lawyers Top 40 under 40, a Client’s Choice award from Avvo.com and consistent 5-star reviews on legal review sites.",
+    "chevesBriceno": "Cheves Briceno",
+    "different":"How we are different",
+    "youFirst":"You First"
+  },
+  "header3":{
+    "headerTop":"FAR-REACHING",
+    "headerBtm":"REPRESENTATION",
+    "description":"We are headquartered in Peachtree Corners, GA, but we have a much farther reach. At Cheves Briceno, we represent clients in no fewer than four states: Georgia, Florida, Alabama, and Washington. Even if you do not live in the Atlanta metro area, we can still represent you.",
+    "btn":"Schedule Consultation"
+  },
+  "faq2":{
+    "header":"OUR EXPERT SERVICES",
+    "provenPI":"Proven Atlanta Personal Injury Law Firm",
+    "provenPIdesc":"Accidents resulting in personal injuries to you or a loved one can be life-changing, physically painful and emotionally burdensome. In situations where an accident was caused by the negligence of another party (or parties) you might be entitled to compensation that will help cover medical expenses, replace lost income or future potential earnings, and assistance with physical pain and suffering. Unfortunately, insurance companies will sometimes use forceful or unscrupulous tactics to get you to settle for less than you deserve; especially if you are not working with an Atlanta personal injury law firm. Additionally, some vehicle accidents can be highly complex and involve multiple negligent parties. Winning these types of suits requires a sophisticated legal approach. Partnering with an Atlanta personal injury law firm is the best way to ensure that your interests are protected and you receive the compensation you deserve. As a knowledgeable and dedicated Atlanta personal injury law firm, we handle a wide variety of the most common personal injury claims, detailed in the next section.",
+    "commonPI":"Most Common Personal Injury Claims",
+    "experiencedImmigartion":"An Experienced Immigration Law Firm",
+    "familyImmigration":"Atlanta Family and Immigration Law"
+  },
+
+  "ctaCard": {
+    "title": "Sign up for our newsletter   ",
+    "description": "Let Cheves Briceno represent you",
+    "button": "Sign Up",
+    "placeholder": "Write your email.",
+    "subscriberText1": "Join our",
+    "subscriberText2": "subscribers now!"
+  },
+  "footer": {
+    "description": "A minimal and lovely travel blog which shares experiences and citiest around the world!",
+    "rightsText": "All rights are reserved | Copyright",
+    "creatorText": "Created with ❤️ by",
+    "currentlyAtText": "Currently at"
   }
+}

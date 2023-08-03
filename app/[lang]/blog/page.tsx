@@ -7,6 +7,17 @@ import { notFound } from "next/navigation"
 import directus from "../../../lib/directus"
 import { getDictionary } from '../../../lib/getDictionary'
 
+import {i18n} from "../../../i18n.config"
+ 
+export const generateStaticParams = async () =>{
+  return i18n.locales.map((lang) =>{
+    return {
+      lang
+    }
+  })
+}
+
+
 
 export default async function page ({
   params,

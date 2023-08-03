@@ -79,7 +79,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
        
 })   
 
-
+ //Brings ins postLinks attaches it to categoryLinks and then [puts them in same array ] ?
   const dynamicLinks = postLinks?.concat(categoryLinks ?? []).flat() ?? [];
 
 

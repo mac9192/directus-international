@@ -1,26 +1,88 @@
 {
-    "navigation": {
-      "links": {
-        "cities": "Ciudades",
-        "experience": "Experiencias"
-      }
-    },
-    "buttons": {
-      "readMore": "Leer más"
-    },
-    "ctaCard": {
-      "title": "¡Explora el mundo conmigo!",
-      "description": "¡Explora el mundo conmigo! Estoy viajando por el 🌍. He visitado la mayoría de las grandes ciudades de 🇺🇸 y actualmente estoy viajando por 🇪🇺 ¡Únete a mí!",
-      "button": "Registrarse",
-      "placeholder": "Escribe tu correo electrónico.",
-      "subscriberText1": "Únete a nuestros",
-      "subscriberText2": "¡suscriptores ahora!"
-    },
-    "footer": {
-      "description": "Un blog de viajes minimalista y encantador que comparte experiencias y ciudades del mundo!",
-      "rightsText": "Todos los derechos reservados | Copyright",
-      "creatorText": "Creado con ❤️ por",
-      "currentlyAtText": "Actualmente en"
+  "navigation": {
+    "links": {
+      "cities": "Ciudades",
+      "experience": "Experiencias"
     }
-  }
+  },
+  "buttons": {
+    "readMore": "Leer más"
+  },
+
+    "frontHeader": {
+      "topLine": "Expertos Reales, Resultados Reales",
+      "bottomLine": "Expertos Reales",
+      "description": "Somos un bufete de abogados dedicado en Atlanta que brinda a nuestros clientes una representación compasiva pero agresiva en asuntos de inmigración y lesiones.",
+      "button1": "Programar Consulta",
+      "button2": "Ver Video"
+    },
+    "contactTop2": {
+      "headercontactLeft": "Contáctenos",
+      "headerusTodayLeft": "Hoy", 
+      "descriptionLeft": "¿Enfrentas desafíos de inmigración o lidiando con las secuelas de una lesión personal?",
+      "ctaLeft": "Llámenos hoy.",
+      "immigration": "INMIGRACIÓN",
+      "personalInjury": "LESIONES PERSONALES",
+      "submitBtn": "Enviar Formulario"
+    },
+    "badges": {
+      "header": "BUFETE DE ABOGADOS LÍDER EN ATLANTA QUE OFRECE SERVICIOS LEGALES DE INMIGRACIÓN Y LESIONES PERSONALES EN ATLANTA",
+      "subHeader": "ATENDIENDO A GEORGIA, FLORIDA, ALABAMA Y EL ESTADO DE WASHINGTON",
+      "top40": "La membresía en Los Mejores Abogados Litigantes Menores de 40 de Estados Unidos (The National Trial Lawyers Top 40 under 40) se otorga solo por invitación y se extiende exclusivamente a aquellos abogados litigantes que ejercen derecho civil para demandantes y/o derecho penal.",
+      "avvo": "Este honor altamente codiciado se otorga a los abogados que han recibido reseñas de 4 estrellas o más de al menos 5 clientes anteriores durante el año.",
+      "super": "Super Lawyers selecciona abogados mediante un proceso de selección patentado de varias fases. Las nominaciones y evaluaciones de colegas se combinan con investigaciones independientes."
+    },
+    "header2": {
+      "header": "QUÉ DICEN NUESTROS CLIENTES",
+      "testimonials": "“Gran ética de trabajo, muy serviciales y respetuosos. Nos ayudaron con un caso de accidente. Siempre respondieron cualquier pregunta que tuviéramos. Me encantó que hablaran español para que mi madre entendiera el proceso de principio a fin.”",
+      "btn": "Programar Consulta"
+    },
+    "services": {
+      "header": "NUESTRAS ÁREAS DE PRÁCTICA",
+      "personalInjury": "Lesiones Personales",
+      "immigration": "Inmigración",
+      "personalInjurydesc": "En el bufete de lesiones personales de Cheves Briceno, brindamos una defensa legal agresiva para personas en Georgia, Alabama, Florida y el estado de Washington que han sufrido lesiones debido a la negligencia de otra persona. No dudaremos en enfrentar a poderosas compañías de seguros y otros intereses corporativos si eso significa ayudarte a recuperar una compensación por tus daños.",
+      "immigrationdesc": "Nuestros abogados han manejado los casos más complejos. Específicamente, tenemos una amplia experiencia en inmigración basada en la familia. Podemos ayudarte en todas las etapas del proceso. Desde obtener tu tarjeta verde hasta establecer residencia, estamos aquí para responder todas tus preguntas. También ayudamos a aquellos que enfrentan deportación. Nuestro bufete comprende la importancia de estar con la familia."
+    },
+    "cta": {
+      "header": "Empoderando su Trayectoria Legal: Conozca a Nuestro Equipo Legal Experto"
+    },
+    "faq": {
+      "header": "Cheves Briceno no es un bufete de abogados típico. Rompemos con el molde convencional al brindar un servicio agresivo en la sala del tribunal pero compasivo con nuestros clientes.",
+      "firm": "Nuestro Bufete",
+      "firmDesc": "Después de desempeñarse en roles con la Oficina del Abogado Principal de Inmigración y Aduanas (Immigration and Customs Enforcement - ICE) en Miami y pasar 7 años en práctica privada, el socio gerente Gerardo Briceno fundó su propio bufete de abogados de lesiones personales e inmigración en Atlanta. Desde su fundación, Cheves Briceno ha crecido mediante la incorporación de otros abogados como Eduardo Galvao, Jennifer Bechtold y un equipo dedicado de personal administrativo y paralegal esencial. Los abogados de Briceno han sido ampliamente reconocidos y premiados en la profesión legal. Entre los logros destacados se encuentran el codiciado reconocimiento de SuperLawyers, Los Mejores Abogados Litigantes Menores de 40 de Estados Unidos, el premio Elección del Cliente de Avvo.com y reseñas consistentes de 5 estrellas en sitios de reseñas legales.",
+      "chevesBriceno": "Cheves Briceno",
+      "different": "Cómo somos diferentes",
+      "youFirst": "Usted es lo Primero"
+    },
+    "header3": {
+      "headerTop": "AMPLIA",
+      "headerBtm": "REPRESENTACIÓN",
+      "description": "Nuestra sede está en Peachtree Corners, GA, pero tenemos un alcance mucho más amplio. En Cheves Briceno, representamos a clientes en al menos cuatro estados: Georgia, Florida, Alabama y Washington. Incluso si no vives en el área metropolitana de Atlanta, aún podemos representarte.",
+      "btn": "Programar Consulta"
+    },
+    "faq2": {
+      "header": "NUESTROS SERVICIOS EXPERTOS",
+      "provenPI": "Bufete de Abogados de Lesiones Personales en Atlanta Comprobado",
+      "provenPIdesc":"Los accidentes que resultan en lesiones personales para usted o un ser querido pueden cambiar su vida, causar dolor físico y ser una carga emocional. En situaciones en las que un accidente fue causado por la negligencia de otra parte (o partes), es posible que tenga derecho a una compensación que ayudará a cubrir gastos médicos, reemplazar ingresos perdidos o futuros ingresos potenciales, y brindar asistencia para el dolor físico y sufrimiento. Desafortunadamente, las compañías de seguros a veces utilizan tácticas agresivas o poco éticas para que acepte un acuerdo por menos de lo que merece, especialmente si no está trabajando con un bufete de abogados de lesiones personales en Atlanta. Además, algunos accidentes automovilísticos pueden ser altamente complejos e involucrar a varias partes negligentes. Ganar este tipo de demandas requiere un enfoque legal sofisticado. Asociarse con un bufete de abogados de lesiones personales en Atlanta es la mejor manera de asegurarse de que sus intereses estén protegidos y reciba la compensación que se merece. Como bufete de abogados de lesiones personales en Atlanta conocedor y dedicado, manejamos una amplia variedad de las reclamaciones de lesiones personales más comunes, detalladas en la siguiente sección.",
+      "commonPI": "Reclamaciones de Lesiones Personales Más Comunes",
+      "experiencedImmigartion": "Bufete de Abogados de Inmigración con Experiencia",
+      "familyImmigration": "Derecho Familiar e Inmigración en Atlanta"
+    },
   
+  
+  "ctaCard": {
+    "title": "¡Explora el mundo conmigo!",
+    "description": "¡Explora el mundo conmigo! Estoy viajando por el 🌍. He visitado la mayoría de las grandes ciudades de 🇺🇸 y actualmente estoy viajando por 🇪🇺 ¡Únete a mí!",
+    "button": "Registrarse",
+    "placeholder": "Escribe tu correo electrónico.",
+    "subscriberText1": "Únete a nuestros",
+    "subscriberText2": "¡suscriptores ahora!"
+  },
+  "footer": {
+    "description": "Un blog de viajes minimalista y encantador que comparte experiencias y ciudades del mundo!",
+    "rightsText": "Todos los derechos reservados | Copyright",
+    "creatorText": "Creado con ❤️ por",
+    "currentlyAtText": "Actualmente en"
+  }
+}

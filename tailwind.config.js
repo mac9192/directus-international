@@ -6,6 +6,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./blog-components/**/*.{js,ts,jsx,tsx}",
     "./node_modules/flowbite-react/**/*.js",
+    "./frontComponents/**/*.{js,ts,jsx,tsx}",
  
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -31,6 +32,8 @@ module.exports = {
         veryPaleRed: 'hsl(13, 100%, 96%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
         gray300:'hsl(210, 40%, 96.1%)',
+        logoBlue:'hsl(196,98%,19%)',
+        graydark:'hsl(0,0%,85%)',
         backgroundImage: {
           'hero': "url('/assets/herobg.png')",
         },
