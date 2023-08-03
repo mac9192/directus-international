@@ -26,12 +26,11 @@ const Events = () => {
       </div>
       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
         <h2 class="text-gray-900 text-xl title-font font-medium mb-2  "> Second Random Selection from Previously Submitted Registrations Complete for FY 2024 H-1B Cap</h2>
-    
-        <a href="https://directus-proto.vercel.app/en" class="mt-3 text-black inline-flex items-center">Learn More
+     
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
-        </a>
+   
       </div>
     </div>
     <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
@@ -39,11 +38,11 @@ const Events = () => {
   
         
         <p class="leading-relaxed text-base  text-black text-xl">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-        <a href="https://directus-proto.vercel.app/en" class="mt-3 text-black inline-flex items-center">Learn More
+        
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
-        </a>
+     
       </div>
       <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
       
@@ -61,9 +60,7 @@ const Events = () => {
        
         
         <p class="leading-relaxed text-base text-black text-xl">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-        <a href="https://directus-proto.vercel.app/en" class="mt-3 text-black inline-flex items-center ">Learn More
         
-        </a>
       </div>
       
     </div>
@@ -80,11 +77,7 @@ const Events = () => {
       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
         <h2 class="text-gray-900 text-xl title-font font-medium mb-2  "> Second Random Selection from Previously Submitted Registrations Complete for FY 2024 H-1B Cap</h2>
     
-        <a href="https://directus-proto.vercel.app/en" class="mt-3 text-black inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
+        
       </div>
     </div>
     <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
@@ -94,11 +87,7 @@ const Events = () => {
       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
         <h2 class="text-gray-900 text-xl title-font font-medium mb-2  "> Second Random Selection from Previously Submitted Registrations Complete for FY 2024 H-1B Cap</h2>
     
-        <a href="https://directus-proto.vercel.app/en" class="mt-3 text-black inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
+        
       </div>
     </div>
     <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
@@ -108,11 +97,7 @@ const Events = () => {
       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
         <h2 class="text-gray-900 text-xl title-font font-medium mb-2  "> Second Random Selection from Previously Submitted Registrations Complete for FY 2024 H-1B Cap</h2>
     
-        <a href="https://directus-proto.vercel.app/en" class="mt-3 text-black inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
+      
       </div>
     </div>
     </div>

@@ -16,7 +16,7 @@ module.exports = {
       sm: '450px',
       md: '868px',
       lg: '1206px',
-      xl: '1600px',
+      xl: '1750px',
     },
     minWidth: {
       '1/2': '50%',
