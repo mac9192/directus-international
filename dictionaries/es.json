@@ -71,14 +71,15 @@
     },
   
   
-  "ctaCard": {
-    "title": "¡Explora el mundo conmigo!",
-    "description": "¡Explora el mundo conmigo! Estoy viajando por el 🌍. He visitado la mayoría de las grandes ciudades de 🇺🇸 y actualmente estoy viajando por 🇪🇺 ¡Únete a mí!",
-    "button": "Registrarse",
-    "placeholder": "Escribe tu correo electrónico.",
-    "subscriberText1": "Únete a nuestros",
-    "subscriberText2": "¡suscriptores ahora!"
-  },
+
+    "ctaCard": {
+      "title": "¡Suscríbete a nuestro boletín!",
+      "description": "Deja que Cheves Briceño te represente",
+      "button": "Suscribirse",
+      "placeholder": "Escribe tu correo electrónico.",
+      "subscriberText1": "Únete a nuestros",
+      "subscriberText2": "¡suscriptores ahora!"
+      },
   "footer": {
     "description": "Un blog de viajes minimalista y encantador que comparte experiencias y ciudades del mundo!",
     "rightsText": "Todos los derechos reservados | Copyright",

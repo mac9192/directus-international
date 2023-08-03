@@ -14,9 +14,9 @@ const Testimonials = ({dictionary}:{dictionary:any}) => {
       alt="atlanta"
       priority
     />
-   <div className="relative z-1">
+   <div className="relative z-1 p-12">
       <div className="flex flex-col">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+      <div className="py- px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
        
        <h2 className="mb-4 text-4xl   tracking-tight leading-none text-white md:text-5xl lg:text-6xl  m-10 ">{dictionary.header2.header}</h2>
        
