@@ -73,7 +73,7 @@ export default function RootLayout({
   return (
     <html lang={lang}>
 <Head>
-<meta name="google-site-verification" content="xFa5TJNZlg-4hykrxBaFnWMCWtOgsLM2CAEFn71GZ-s" />
+ 
 
 </Head>
  
