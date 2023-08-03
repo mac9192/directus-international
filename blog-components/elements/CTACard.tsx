@@ -76,14 +76,14 @@ const CTACard = ({dictionary}:{dictionary:any}) => {
         {/*Putting an image as bg and adding a top to it cool!*/}
         <Image
               fill
-              src="https://images.unsplash.com/photo-1538964524798-581b17c6b5ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+              src="https://images.unsplash.com/photo-1589216532372-1c2a367900d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
               alt="CTA Card Image"
               className="object-cover object-center"
             
             />
         {/*Content Container*/}
         <div className="relative z-10 text-white">
-            <div className="text-lg font-medium">#exploretheworld</div>
+            <div className="text-lg font-medium">Cheves | Briceno</div>
             <h3 className="mt-3 text-4xl font-semibold">
                 {dictionary.ctaCard.title}
             </h3>
