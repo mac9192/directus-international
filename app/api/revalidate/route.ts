@@ -15,6 +15,8 @@ export async function GET(request: NextRequest) {
   
   revalidatePath('/[lang]');
   
+  revalidatePath('/sitemap.ts');
+  
 
   return NextResponse.json({  revalidated: true, now: Date.now() }) ;
 }
