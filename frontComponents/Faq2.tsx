@@ -19,7 +19,7 @@ const Faq2 = ({dictionary}:{dictionary:any}) => {
              
             </div>
         <div className="flex flex-col lg:flex-row w-full flex-row-reverse ">  
-          <div className="lg:w-3/5 md:full md:pr-10 p-10 ">
+          <div className="lg:w-3/5 md:full md:pr-10 md:p-10 ">
     
     <div id="accordion-collapse" data-accordion="open">
       <h2 id="accordion-collapse-heading-1">
