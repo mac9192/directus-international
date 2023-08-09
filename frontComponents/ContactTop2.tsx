@@ -6,10 +6,10 @@ import court from '../public/assets/img-court.jpg'
 
 const ContactTop2 = ({dictionary}:{dictionary:any}) => {
   return (
-    <div className="flex flex-col w-full md:flex-row sm:w-full -mt-[64px]  z-3">
+    <div className="flex flex-col w-full lg:flex-row sm:w-full -mt-[64px]  z-3">
 
     <div className="bg-logoBlue w-1/2 sm:w-full p-7 text-white rounded relative">
-    <div className="lg:w-4/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 px-12 rounded">
+    <div className="lg:w-4/5 lg:w-1/2 md:pr-16 lg:pr-0 pr-0 px-12 rounded">
   <h2 className="title-font font-medium text-3xl text-gray-900 md:text-[32px] text-white"><span className="border-b-2 border-white">{dictionary.contactTop2.headercontactLeft}</span> {dictionary.contactTop2.headerusTodayLeft}</h2>
       <p className="leading-relaxed mt-2 md:text-[22px]">{dictionary.contactTop2.descriptionLeft}</p>
       <br/>

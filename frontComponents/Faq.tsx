@@ -5,23 +5,23 @@ import gerardo from '../public/assets/profile-gerardo.png'
 const Faq = ({dictionary}:{dictionary:any}) => {
   return (
     <div>
-        <section className="text-black-600 body-font    ">
-        <div className="md:p-10 md:text-[36px]  mx-auto text-center max-w-screen-2xl text-logoBlue">
+        <section className="text-black-600 body-font   mb-5   ">
+        <div className="md:p-10 md:text-[36px] sm:text-[25px] sm:py-8  mx-auto text-center max-w-screen-2xl text-logoBlue">
                {dictionary.faq.header}
               </div>
-  <div className=" container px-5   mx-auto flex flex-wrap">
+  <div className=" lg:container md:mx-auto px-5   flex flex-wrap">
     
     
-  <div className="flex md:flex-row flex-col sm:mx-auto md:text-left text-center">
+  <div className="flex md:flex-row flex-col mx-auto sm:mx-auto md:text-left text-center">
           
          
         </div>
-    <div className="flex flex-wrap w-full">
-      <div className="lg:w-3/5 md:w-1/2 md:pr-10  ">
+    <div className="flex  flex-col lg:flex-row w-full">
+      <div className="lg:w-3/5 md:w-full md:pr-10  ">
 
 <div id="accordion-collapse" data-accordion="open">
   <h2 id="accordion-collapse-heading-10">
-    <button type="button" className="flex items-center hover:bg-logoBlue justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200  focus:ring-4 focus:ring-gray-200  " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+    <button type="button" className="flex mx-auto items-center hover:bg-logoBlue justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200  focus:ring-4 focus:ring-gray-200  " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-logoBlue inline-flex items-center justify-center text-white relative z-10">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -101,7 +101,7 @@ const Faq = ({dictionary}:{dictionary:any}) => {
         
       </div>
       <div className="flex flex-col">
-                <Image className="rounded" src = {gerardo} alt="/" width="600" height="50" priority={true} />
+                <Image className="rounded mx-auto py-3" src = {gerardo} alt="/" width="600" height="50" priority={true} />
                 <p className="text-center text-[24px] p-3">Attorney Gerardo Briceno</p>
           </div>
     </div>

@@ -19,7 +19,7 @@ const navigation = async ({locale}: {locale:string}) => {
                 <li>
                   <LangSwithcer locale={locale} />
                 </li>
-              <li>
+               <li>
                       <Link href={`/${locale}`}>Home</Link>
                   </li>
                 <li>

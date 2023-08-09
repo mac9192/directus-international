@@ -9,7 +9,7 @@ const services = ({dictionary}:{dictionary:any}) => {
  
   <div className="w-full">
 
-  <div className="flef flex-col  flex-wrap ">
+  <div className="flex flex-col  flex-wrap ">
 
 
 
@@ -19,25 +19,25 @@ const services = ({dictionary}:{dictionary:any}) => {
           {dictionary.services.header}
         </div>
 
-      <div className="flex flex-col md:flex-row justify-center gap-x-20 items-stretch">
 
-          <div>
+
+    <div className="flex flex-col md:flex-row  justify-center gap-x-20 items-stretch">
+    <div>
             <Image className="items-center rounded"src = {crash} alt="/" width="700" height="50" priority={true} />
   <h2 className="p-5 mx-auto text-center text-[32px]">{dictionary.services.personalInjury}</h2>
             <p className="md:max-w-2xl py-5 text-[20px] mx-auto"> {dictionary.services.personalInjurydesc}</p>
           </div>
-          
-    
-        <div className="flex flex-col max-h-[15px]">
-        <div className="max-h-[30px]">
-            <Image className="items-center rounded"src = {immigration} alt="/" width="678" height="40" priority={true} />
-            <h2 className="p-5 mx-auto text-center text-[32px]">{dictionary.services.immigration}</h2>
-            <p className="max-w-2xl py-5 text-[20px] mx-auto"> {dictionary.services.immigrationdesc}</p>
+          <div>
+            <Image className="items-center rounded"src = {immigration} alt="/" width="675" height="50" priority={true} />
+  <h2 className="p-5 mx-auto text-center text-[32px]">{dictionary.services.immigration}</h2>
+            <p className="md:max-w-2xl py-5 text-[20px] mx-auto"> {dictionary.services.immigrationdesc}</p>
           </div>
-        </div>
+          
+    </div>
 
-      </div>
 
+ 
+ 
       
         
  

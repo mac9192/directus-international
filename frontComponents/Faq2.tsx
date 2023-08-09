@@ -8,18 +8,18 @@ const Faq2 = ({dictionary}:{dictionary:any}) => {
 
         <div>
             <section className="text-black-600 body-font mb-5  ">
-            <div className="md:p-10 md:text-[36px]  mx-auto text-center max-w-screen-2xl text-logoBlue">
+            <div className="md:p-10 text-[36px] ] sm:py-8 mx-auto text-center max-w-screen-2xl text-logoBlue">
            {dictionary.faq2.header}
                   </div>
-      <div className=" container px-5   mx-auto flex flex-wrap">
+      <div className="   px-5    lg:container md:mx-auto px-5  flex flex-wrap">
         
         
       <div className="flex md:flex-row flex-col sm:mx-auto md:text-left text-center ">
               
              
             </div>
-        <div className="flex flex-wrap w-full flex-row-reverse ">
-          <div className="lg:w-3/5 md:w-1/2 md:pr-10 p-10 ">
+        <div className="flex flex-col lg:flex-row w-full flex-row-reverse ">  
+          <div className="lg:w-3/5 md:full md:pr-10 p-10 ">
     
     <div id="accordion-collapse" data-accordion="open">
       <h2 id="accordion-collapse-heading-1">
@@ -120,7 +120,7 @@ const Faq2 = ({dictionary}:{dictionary:any}) => {
             
           </div>
           <div className="flex flex-col p-10">
-                <Image className="rounded " src = {cheves} alt="/" width="600" height="50" priority={true} />
+                <Image className="rounded items-center text-center mx-auto" src = {cheves} alt="/" width="600" height="50" priority={true} />
                 <p className="text-center text-[24px] p-3">Attorney William Cheves</p>
           </div>
         

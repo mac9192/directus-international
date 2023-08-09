@@ -9,9 +9,9 @@ const Badges = ({dictionary}:{dictionary:any}) => {
   return (
     <div>
      <section className="text-gray-600  body-font ">
-  <div className="container px-5 py-16 mx-auto">
+  <div className="lg:container md:mx-auto px-5 md:py-16 sm:py-20 mx-auto">
   <div className="text-center mb-20">
-      <h1 className="sm:text-1xl text-2xl  text-logoBlue font-medium title-font text-black mb-4">{dictionary.badges.header}
+      <h1 className="sm:text-1xl text-3xl  text-logoBlue font-medium title-font text-black mb-4">{dictionary.badges.header}
 </h1>
       <p className="text-amber-500 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-black ">{dictionary.badges.subHeader}
 </p>

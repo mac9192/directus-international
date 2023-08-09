@@ -6,13 +6,13 @@ const ContactInfo = () => {
   return (
     <div>
       <div class="  py-10 mx-auto md:px-6 bg-logoBlue">
-      <div className="md:p-12 md:mt- md:text-[36px] mb-10  mx-auto text-center max-w-screen-2xl text-white  ">
+      <div className="md:p-12 md:mt-  text-[36px] mb-10  mx-auto text-center max-w-screen-2xl text-white  ">
            CONTACT US ABOUT YOUR CASE
                   </div>
  
   <section class="mb-33 rounded-lg">
     <div class="relative h-[300px] overflow-hidden rounded-lg  bg-[50%] bg-no-repeat bg-[url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"></div>
-    <div class=" container items-center mx-auto px-6 md:px-12">
+    <div class=" md:container md:mx-auto items-center mx-auto px-6 md:px-12">
       <div
         class="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]   dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
         <div class="flex flex-wrap">

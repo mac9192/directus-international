@@ -6,7 +6,7 @@ import LangSwithcer from '../blog-components/navigation/langSwithcer'
 import logo from '../public/assets/logo.svg'
 const navigation = async ({locale}: {locale:string}) => {
 
-  const dictionary = await getDictionary(locale)
+  
 
 
   return (
@@ -17,7 +17,7 @@ const navigation = async ({locale}: {locale:string}) => {
             
           </Link>
           <nav>
-              <ul className="flex items-center gap-4 text-neutral-600 text-black">
+              <ul className=" hidden md:flex flex items-center gap-4 text-neutral-600 text-black">
                 
               <li>
                       <Link href={`/`}>PERSONAL INJURY</Link>
@@ -37,7 +37,7 @@ const navigation = async ({locale}: {locale:string}) => {
               </ul>
           </nav>
           <nav>
-              <ul className="flex items-center gap-4 text-neutral-600 text-white">
+              <ul className="flex items-center gap-4 text-neutral-600 text-white hidden md:flex">
                 
                 <li>
                   <LangSwithcer locale={locale} />

@@ -20,6 +20,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
+    "framer-motion": "^10.15.1",
     "html-react-parser": "^4.0.0",
     "lucide-react": "^0.246.0",
     "luxon": "^3.3.0",

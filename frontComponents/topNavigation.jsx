@@ -11,7 +11,7 @@ const topNavigation = () => {
   return (
     <div>
      <header class="text-white bg-logoBlue body-font">
-  <div class="container mx-auto flex flex-wrap  flex-col md:flex-row items-center">
+  <div class="md:container md:mx-auto mx-auto flex flex-wrap  flex-col md:flex-row items-center">
 
     <nav class="flex lg:w-4/5 flex-wrap items-center text-base md:ml-auto">
      <a href="https://directus-proto.vercel.app/en"> <Image src = {telephone} alt="/" width="30" height="50" priority={true} /> </a>
@@ -20,7 +20,7 @@ const topNavigation = () => {
       <a href="https://directus-proto.vercel.app/en" class="mr-5 hover:text-gray-900 px-3">3295 River Exchange Dr. Suite 420 Peachtreee Corners, GA</a>
     
     </nav>
-    <div class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 px-3 lg:items-center lg:justify-center mb-4 md:mb-0">
+    <div class="flex  lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 px-3 lg:items-center lg:justify-center mb-4 md:mb-0">
   
     <a href="https://directus-proto.vercel.app/en" className="px-2"> <Image src = {mail} alt="/" width="30" height="50" priority={true} /> </a>
     <a href="https://directus-proto.vercel.app/en" className="px-2"> <Image src = {youtube} alt="/" width="30" height="50" priority={true} /> </a>

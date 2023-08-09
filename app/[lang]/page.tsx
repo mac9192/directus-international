@@ -17,6 +17,8 @@ import Header3 from '../../frontComponents/HeaderThree'
 import Events from '../../frontComponents/Events'
 import ContactInfo from '../../frontComponents/ContactInfo'
 import H2 from '../../frontComponents/Header2'
+import Mobile from '../../frontComponents/Navigation'
+
 
 import {getDictionary} from '../../lib/getDictionary'
 
@@ -42,8 +44,8 @@ const page = async ({
     <Testimonials  dictionary={dictionary}/>
      
   
- 
-    <Services dictionary={dictionary}/>
+<Services dictionary={dictionary}/> 
+    
     <CTA dictionary={dictionary}/>
      
     <Faq dictionary={dictionary}/>

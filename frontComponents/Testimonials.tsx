@@ -6,7 +6,7 @@ import stars from '../public/assets/icon-stars.png'
 const Testimonials = ({dictionary}:{dictionary:any}) => {
   return (
     <div>
-   <div className="relative h-screen">
+   <div className="relative ">
     <Image
       layout="fill"
       className="object-center object-cover pointer-events-none"
