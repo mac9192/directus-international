@@ -19,7 +19,7 @@ const HeaderTwo = ({dictionary}:{dictionary:any}) => {
    <section className="    py-12">
     <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
        
-        <h2 className="mb-4 text-4xl   tracking-tight leading-none text-white md:text-5xl lg:text-6xl  m-10 ">{dictionary.header3.headerTop}</h2>
+        <h2 className="mb-4 text-4xl w-full items-center mx-auto  tracking-tight leading-none text-white md:text-5xl lg:text-6xl  m-10 ">{dictionary.header3.headerTop}</h2>
   <h2 className="mb-4 text-4xl   tracking-tight leading-none md:text-5xl lg:text-6xl  m-10 text-logoBlue">{dictionary.header3.headerBtm}</h2>
   
       
@@ -31,7 +31,7 @@ const HeaderTwo = ({dictionary}:{dictionary:any}) => {
     </div>
 
     <div className="flex items-center justify-center text-white sm:m-10 text-center">
-        <p className="md:text-[28px] p-[80px] max-w-7xl text-2xl ">{dictionary.header3.description}</p>
+        <p className="md:text-[28px] md:p-[80px] max-w-7xl text-2xl ">{dictionary.header3.description}</p>
     </div>
  
 
