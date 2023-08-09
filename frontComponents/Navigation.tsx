@@ -109,7 +109,7 @@ const [toggle, setToggle] = useState(false)
             </button>
        
  {/*Hamburger Icon - comes up when sm screens*/}
-                 <button id="menu-btn" alt="menu"  aria-label="search" className={`${!toggle ? '' :'open' } block hamburger md:hidden focus:outline-none`} 
+                 <button id="menu-btn"   aria-label="search" className={`${!toggle ? '' :'open' } block hamburger md:hidden focus:outline-none`} 
                     onClick={() =>setToggle(!toggle)}>
                 <span className="hamburger-top"></span>
                 <span className="hamburger-middle"></span>
