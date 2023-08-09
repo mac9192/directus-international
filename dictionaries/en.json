@@ -8,7 +8,13 @@
     "buttons": {
       "readMore": "Read More"
     },
- 
+    "menu":{
+      "personalInjury": "PERSONAL INJURY",
+      "immigrationLaw":"IMMIGRATION LAW",
+      "aboutUs":"ABOUT US",
+      "blog":"BLOG",
+      "contact":"CONTACT"
+    },
     "frontHeader":{
       "topLine":"Real Experts, Real Results",
       
@@ -71,6 +77,25 @@
       "familyImmigration":"Atlanta Family and Immigration Law"
     },
 
+    "events":{
+      "header":"KEEP UP TO DATE WITH THE LATEST NEWS AND BLOG POSTS",
+      "posts":"RECENT POSTS",
+      "events": "RECENT EVENTS",
+      "event1":"Celebrating Unity: Navigating Immigration Law Together",
+      "event2":"Pathways to Possibility: Empowering Your Immigration Journey – A Legal Seminar",
+      "event3":"Global Horizons: Exploring Immigration Opportunities – A Legal Workshop",
+      "post1":"Exploring Asylum and Refugee Status: Eligibility and Application Process",
+      "post2":"Steps to Take After a Car Accident: Protecting Your Rights and Seeking Compensation",
+      "post3":"Understanding the Different Types of Visas: A Comprehensive Guide"
+    },
+
+    "contacts": {
+      "header":"CONTACT US ABOUT YOUR CASE",
+      "office":"Office Number",
+      "location":"Atlanta Location",
+      "email":"Email Address"
+    },
+
     "ctaCard": {
       "title": "Sign up for our newsletter   ",
       "description": "Let Cheves Briceno represent you",
@@ -84,5 +109,23 @@
       "rightsText": "All rights are reserved | Copyright",
       "creatorText": "Created with ❤️ by",
       "currentlyAtText": "Currently at"
+    },
+    "footer1": {
+      "social":"Get Connected With Us On Social Networks",
+      "personalInjury":"PERSONAL INJURY",
+      "motor":"Motor Vehicle Accidents",
+      "commercial":"Commercial Truck Accidents",
+      "slip":"Slip and Falls",
+      "workers":"Workers Compensation",
+      "wrongful":"Wrongful Death",
+      "uber":"Uber Accidents",
+      "lyft":"Lyft Accidents",
+      "ImmigrationLaw":"IMMIGRATION LAW",
+      "family":"Family Based Immigration",
+      "business":"Business Immigration",
+      "about":"ABOUT US",
+      "blog":"BLOG",
+      "contact":"CONTACT"
+
     }
   }

@@ -8,6 +8,13 @@
   "buttons": {
     "readMore": "Leer más"
   },
+  "menu": {
+    "personalInjury": "LESIONES PERSONALES",
+    "immigrationLaw": "LEY DE INMIGRACIÓN",
+    "aboutUs": "SOBRE NOSOTROS",
+    "blog": "BLOG",
+    "contact": "CONTACTO"
+  },
 
     "frontHeader": {
       "topLine": "Expertos Reales, Resultados Reales",
@@ -70,7 +77,23 @@
       "familyImmigration": "Derecho Familiar e Inmigración en Atlanta"
     },
   
-  
+    "events": {
+      "header": "MANTENTE AL DÍA CON LAS ÚLTIMAS NOTICIAS Y ENTRADAS DE BLOG",
+      "posts": "ENTRADAS RECIENTES",
+      "events": "EVENTOS RECIENTES",
+      "event1": "Celebrando la Unidad: Navegando Juntos en la Ley de Inmigración",
+      "event2": "Caminos hacia las Posibilidades: Potenciando tu Viaje de Inmigración - Un Seminario Legal",
+      "event3": "Horizontes Globales: Explorando Oportunidades de Inmigración - Un Taller Legal",
+      "post1": "Explorando el Asilo y el Estatuto de Refugiado: Elegibilidad y Proceso de Solicitud",
+      "post2": "Pasos a Seguir Después de un Accidente de Coche: Protegiendo tus Derechos y Buscando Compensación",
+      "post3": "Comprendiendo los Diferentes Tipos de Visas: Una Guía Integral"
+    },
+    "contacts": {
+      "header": "CONTÁCTENOS ACERCA DE SU CASO",
+      "office": "Número de Oficina",
+      "location": "Ubicación en Atlanta",
+      "email": "Dirección de Correo Electrónico"
+    },
 
     "ctaCard": {
       "title": "¡Suscríbete a nuestro boletín!",
@@ -85,5 +108,24 @@
     "rightsText": "Todos los derechos reservados | Copyright",
     "creatorText": "Creado con ❤️ por",
     "currentlyAtText": "Actualmente en"
+  },
+
+  "footer1": {
+    "social": "Conéctese con nosotros en las redes sociales",
+    "personalInjury": "LESIONES PERSONALES",
+    "motor": "Accidentes de Vehículos Motorizados",
+    "commercial": "Accidentes de Camiones Comerciales",
+    "slip": "Caídas y Resbalones",
+    "workers": "Compensación Laboral",
+    "wrongful": "Muerte Injusta",
+    "uber": "Accidentes de Uber",
+    "lyft": "Accidentes de Lyft",
+    "ImmigrationLaw": "LEY DE INMIGRACIÓN",
+    "family": "Inmigración Familiar",
+    "business": "Inmigración Empresarial",
+    "about": "SOBRE NOSOTROS",
+    "blog": "BLOG",
+    "contact": "CONTACTO"
   }
+  
 }

@@ -51,8 +51,8 @@ const page = async ({
     <Faq dictionary={dictionary}/>
     <Header3 dictionary={dictionary}/>
     <Faq2 dictionary={dictionary}/>
-    <Events />
-    <ContactInfo />
+    <Events dictionary={dictionary} />
+    <ContactInfo dictionary={dictionary} />
  
     </div>
   )

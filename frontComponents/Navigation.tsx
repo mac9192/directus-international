@@ -11,10 +11,13 @@ import logo from '../public/assets/logo.svg'
 
 
 
+interface navBar {
+    locale: string,
+    dictionary: any
+}
 
 
-
-const Navigation = ({locale}: {locale:string}) => {
+const Navigation = ({locale, dictionary}:navBar ) => {
 
 
     //Mobile -- Lang(To Do)
@@ -80,19 +83,19 @@ const [toggle, setToggle] = useState(false)
             <ul className=" hidden md:flex flex items-center gap-4 text-neutral-600 text-black">
                 
                 <li>
-                        <Link href={`/`}>PERSONAL INJURY</Link>
+                     <Link href={`/`}>{dictionary.menu.personalInjury}</Link>
                     </li>
                   <li>
-                        <Link href={`/`}>IMMIGRATION LAW</Link>
+                        <Link href={`/`}>{dictionary.menu.immigrationLaw}</Link>
                     </li>
                     <li>
-                        <Link href={`/`}>ABOUT US</Link>
+                        <Link href={`/`}>{dictionary.menu.aboutUs}</Link>
                     </li>
                     <li>
                         <Link href={`/${locale}/blog`}>BLOG</Link>
                     </li>
                     <li>
-                        <Link href={`/`}>CONTACT</Link>
+                        <Link href={`/`}>{dictionary.menu.contact}</Link>
                     </li>
                     <li>
                   <LangSwithcer locale={locale} />
@@ -105,7 +108,7 @@ const [toggle, setToggle] = useState(false)
             </a> */}
 {/* Regular button CTA - link to another page - medium and up*/}   
             <button type="button" className=" hidden md:flex  rounded text-white  bg-logoBlue     font-medium     px-5 py-2.5 text-center mr-2 mb-2">
-                Schedule Consultation
+            {dictionary.frontHeader.button1}
             </button>
        
  {/*Hamburger Icon - comes up when sm screens*/}
@@ -118,7 +121,7 @@ const [toggle, setToggle] = useState(false)
             </button>
         </div>
         {/*Mobile Menu*/}
-        <div>{!toggle ? "": <Dropdown locale={locale} />}</div>
+        <div>{!toggle ? "": <Dropdown dictionary={dictionary}locale={locale} />}</div>
          
         </nav>
 </motion.nav>

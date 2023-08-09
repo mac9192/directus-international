@@ -82,11 +82,11 @@ export default async function RootLayout({
  
       <body className={abhaya_Libre.className}>
         <TopNavigation />
-        <Navigation locale={lang} />
+        <Navigation locale={lang} dictionary={dicitionary}  />
         {/*<Navbar locale={lang} /> */}
         
         <div className="min-h-[calc(100vh-300px)]">{children}</div>
-        <Footer />
+        <Footer dictionary={dicitionary}/>
         {/*<Footer locale={lang} /> */}
       </body>
     </html>
