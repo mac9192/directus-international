@@ -83,19 +83,19 @@ const [toggle, setToggle] = useState(false)
             <ul className=" hidden md:flex flex items-center gap-4 text-neutral-600 text-black">
                 
                 <li>
-                     <Link href={`/`}>{dictionary.menu.personalInjury}</Link>
+                     <Link className="line-through" href={`/`}>{dictionary.menu.personalInjury}</Link>
                     </li>
                   <li>
-                        <Link href={`/`}>{dictionary.menu.immigrationLaw}</Link>
+                        <Link className="line-through" href={`/`}>{dictionary.menu.immigrationLaw}</Link>
                     </li>
                     <li>
-                        <Link href={`/`}>{dictionary.menu.aboutUs}</Link>
+                        <Link  className="line-through "href={`/`}>{dictionary.menu.aboutUs}</Link>
                     </li>
                     <li>
                         <Link href={`/${locale}/blog`}>BLOG</Link>
                     </li>
                     <li>
-                        <Link href={`/`}>{dictionary.menu.contact}</Link>
+                        <Link className="line-through" href={`/`}>{dictionary.menu.contact}</Link>
                     </li>
                     <li>
                   <LangSwithcer locale={locale} />

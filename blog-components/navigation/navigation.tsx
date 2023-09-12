@@ -22,7 +22,7 @@ const navigation = async ({locale}: {locale:string}) => {
                <li>
                       <Link href={`/${locale}`}>Home</Link>
                   </li>
-                <li>
+                <li className="line-through">
                       <Link href={`/${locale}/blog`}>Blog</Link>
                   </li>
                   <li>

@@ -13,7 +13,7 @@ export interface SiteConfig {
 }
 
 const siteConfig: SiteConfig = {
-    siteName:"Explorer",
+    siteName:"Law Firm",
     description:"A minimal and lovely travel blog which shares experiences and cities around the world.",
     currentlyAt: "Budapest",
     socialLinks: {

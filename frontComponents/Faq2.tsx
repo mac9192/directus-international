@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import cheves from '../public/assets/profile-cheves.png'
+import cheves from '../public/assets/cheves.jpg'
 
 const Faq2 = ({dictionary}:{dictionary:any}) => {
   return (
@@ -23,13 +23,13 @@ const Faq2 = ({dictionary}:{dictionary:any}) => {
     
     <div id="accordion-collapse" data-accordion="open">
       <h2 id="accordion-collapse-heading-1">
-        <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200  focus:ring-4 focus:ring-gray-200     hover:bg-logoBlue  " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+        <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-white border border-b-0 border-gray-200  focus:ring-4 focus:ring-gray-200  bg-logoBlue  " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
         <div className="flex-shrink-0 w-10 h-10 rounded-full bg-logoBlue inline-flex items-center justify-center text-white relative z-10">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
-          <span className="text-2xl text-logoBlue hover:text-white">    {dictionary.faq2.provenPI}</span>
+          <span className="text-2xl text-logoBlue  text-white">    {dictionary.faq2.provenPI}</span>
           <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
           </svg>
@@ -44,13 +44,13 @@ const Faq2 = ({dictionary}:{dictionary:any}) => {
         </div>
       </div>
       <h2 id="accordion-collapse-heading-3">
-        <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200   dark:border-gray-700 dark:text-gray-400 hover:bg-logoBlue  " data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+        <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200   dark:border-gray-700 dark:text-gray-400   " data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
         <div className="flex-shrink-0 w-10 h-10 rounded-full bg-logoBlue inline-flex items-center justify-center text-white relative z-10">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
-          <span className="text-2xl text-logoBlue hover:text-white">        {dictionary.faq2.commonPI} </span>
+          <span className="text-2xl text-logoBlue  ">        {dictionary.faq2.commonPI} </span>
           <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
           </svg>
@@ -63,13 +63,13 @@ const Faq2 = ({dictionary}:{dictionary:any}) => {
         </div>
       </div>
       <h2 id="accordion-collapse-heading-5">
-        <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200   dark:border-gray-700 dark:text-gray-400 hover:bg-logoBlue  " data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+        <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200   dark:border-gray-700 dark:text-gray-400   " data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
         <div className="flex-shrink-0 w-10 h-10 rounded-full bg-logoBlue inline-flex items-center justify-center text-white relative z-10">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
-          <span className="text-2xl text-logoBlue  hover:text-white">       {dictionary.faq2.experiencedImmigartion} </span>
+          <span className="text-2xl text-logoBlue  ">       {dictionary.faq2.experiencedImmigartion} </span>
           <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
           </svg>
@@ -87,13 +87,13 @@ const Faq2 = ({dictionary}:{dictionary:any}) => {
         </div>
       </div>
       <h2 id="accordion-collapse-heading-7">
-        <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200   dark:border-gray-700 hover:bg-logoBlue hover:text-white hover:bg-gray-100  " data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+        <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200   dark:border-gray-700   " data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
         <div className="flex-shrink-0 w-10 h-10 rounded-full bg-logoBlue inline-flex items-center justify-center text-white relative z-10">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div> 
-          <span className="text-2xl text-logoBlue hover:text-white">       {dictionary.faq2.familyImmigration}</span>
+          <span className="text-2xl text-logoBlue  ">       {dictionary.faq2.familyImmigration}</span>
           <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
           </svg>
